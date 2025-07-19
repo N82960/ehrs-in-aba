@@ -1,0 +1,31 @@
+   <style>
+        html {
+            font-size: 20px;
+        }
+        body {
+            background-color: #d1c3c3;
+            color:rgb(33, 33, 64);
+        }
+        .right-align {
+            text-align: right;
+        }
+        .spaced {
+            margin-top: 100px;
+        }
+        .center-align {
+            text-align: center;
+            font-size: 3rem; /* 60px */ 
+        }
+        .logo {
+            vertical-align: middle;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        .center-logo {
+            display: flex;
+            align-items: center; 
+            justify-content: center;
+            gap: 10px;
+        }
+        
+    </style>
