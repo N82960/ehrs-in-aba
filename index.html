@@ -1,26 +1,41 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- Declares the document type and version of HTML -->
 <html lang="en">
 <head>  
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ABA EHR</title>
+  <meta charset="UTF-8" /> <!-- Sets character encoding -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Ensures mobile responsiveness -->
+  <title>ABA EHR</title> <!-- Title of the page shown in the browser tab -->
+  <!-- Link to the external CSS stylesheet -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Main heading of the page -->
   <h1>EHRs</h1>
+
+  <!-- Subheading describing the type of EHR -->
   <h1>Applied Behavior Analysis</h1>
   
-
+  <!-- Container for the EHR entry -->
   <div class="ehr-entry">
-    <a href="https://centralreach.com" target="_blank">
-     <div class="logo-container">
-      <img src="centeralreach.jpg" alt="CentralReach Logo" class="logo" />
-    </a>
+
+    <!-- Container for the logo with link -->
+    <div class="logo-container">
+      <!-- Link to CentralReach homepage (opens in a new tab securely) -->
+      <a href="https://centralreach.com" target="_blank" rel="noopener noreferrer">
+        <!-- CentralReach logo image -->
+        <img src="centralreach.jpg" alt="CentralReach Logo" class="logo" />
+      </a>
     </div>
-      <div class="ehr-name">CentralReach</div>
-      </div>
-      <div class="button-wrapper">
-      <a href="https://centralreach.com/careers/" class="cr-button" target="_blank" rel="noopener noreferrer">Work with CenteralReach</a> 
-      </div>
+
+    <!-- EHR provider name displayed under logo -->
+    <div class="ehr-name">CentralReach</div>
+  </div>
+
+  <!-- Wrapper for the call-to-action button -->
+  <div class="button-wrapper">
+    <!-- Button linking to CentralReach careers page -->
+    <a href="https://centralreach.com/careers/" class="cr-button" target="_blank" rel="noopener noreferrer">
+      Work with CentralReach
+    </a> 
+  </div>
 </body>
 </html>

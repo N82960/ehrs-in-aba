@@ -1,36 +1,43 @@
+/* set base font size for the HTML document */
 html {
   font-size: 30px;
 }
 
+/* Style the body of the page */
 body {
-  background-color: #c5d0e8;
-  color: rgb(33, 33, 64);
-  font-family: serif;
-  margin: 0;
-  padding: 40px;
-  text-align: center;
+  background-color: #c5d0e8; /* Sets background color */
+  color: rgb(33, 33, 64); /* Sets text color */
+  font-family: serif; /* Sets font */
+  margin: 0; /* removes default margin */
+  padding: 40px; /* Adds space around the content */
+  text-align: center; /* aligns all text inside the body */
 }
 
+/* Style all <h1> headings */
 h1 {
   margin: 0;
-  padding 0;
+  padding: 0;
   font-family: serif;
 }
 
+/* Style for the name of the EHR */
 h1 + h1 {
   margin-top: 3px;
   margin-bottom: 40px;
 }
 
+/* container for each EHR entry */
 .ehr-entry {
   text-align: center;
 }
 
+/* Style for the name of the EHR */
 .ehr-name {
   font-size: 1.5rem;
   line-height: 1;
 }
 
+/* Style the logo image */
 .logo {
   width: 160px;
   height: 160px;
@@ -40,22 +47,33 @@ h1 + h1 {
   border: 2px solid black;
   cursor: pointer;
 }
+
+/* align the logo using this container */
 .logo-container {
   text-align: center;
   margin: 0 auto;
 }
 
-.cr-button{
- font-size: 0.55rem;
- background-color: #85ece7;
- color: rgb(4, 51, 62);
- padding: 2px 2px;
- text-decoration: none;
- border-radius: 12px;
- border: 2px solid rgb(14, 12, 74);
- font-family: Inter, Arial, sans-serif;
- display: inline-block;
+/* Style the button that links to CentralReach Careers */
+.cr-button {
+  font-size: 0.5rem;
+  background-color: #004080;
+  color: white;
+  padding: 5px 12px;
+  text-decoration: none;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.3s ease;
 }
+
+/* Hover effect for the .cr-button */
+.cr-button:hover {
+  background-color: #003060; /* sets the color when hovered */
+}
+
+
 
 
 
