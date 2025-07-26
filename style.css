@@ -37,8 +37,9 @@ h1 + h1 {
   line-height: 1;
 }
 
-/* Style the logo image */
-.logo {
+/* Style the logo images */
+.cr-logo, 
+.en-logo {
   width: 160px;
   height: 160px;
   margin-top: -20px;
@@ -48,8 +49,14 @@ h1 + h1 {
   cursor: pointer;
 }
 
+/* Hover effect for the .cr-button */
+.cr-button:hover {
+  background-color: #003060; /* sets the color when hovered */
+}
+
 /* align the logo using this container */
-.logo-container {
+.cr-logo-container, 
+.en-logo-container { 
   text-align: center;
   margin: 0 auto;
 }
@@ -68,10 +75,10 @@ h1 + h1 {
   transition: background-color 0.3s ease;
 }
 
-/* Hover effect for the .cr-button */
-.cr-button:hover {
-  background-color: #003060; /* sets the color when hovered */
+.en-logo-container {
+  margin-top: 50px;
 }
+
 
 
 
