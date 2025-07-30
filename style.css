@@ -1,6 +1,6 @@
 /* set base font size for the HTML document */
 html {
-  font-size: 30px;
+  font-size: xx-large;
 }
 
 /* Style the body of the page */
@@ -23,7 +23,7 @@ h1 {
 /* Style for the name of the EHR */
 h1 + h1 {
   margin-top: 3px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 /* container for each EHR entry */
@@ -42,7 +42,7 @@ h1 + h1 {
 .en-logo {
   width: 160px;
   height: 160px;
-  margin-top: -20px;
+  margin-top: 0px;
   padding-bottom: 10px;
   border-radius: 30px;
   border: 2px solid black;
@@ -50,7 +50,8 @@ h1 + h1 {
 }
 
 /* Hover effect for the .cr-button */
-.cr-button:hover {
+.cr-button,
+.en-button,hover {
   background-color: #003060; /* sets the color when hovered */
 }
 
@@ -62,9 +63,10 @@ h1 + h1 {
 }
 
 /* Style the button that links to CentralReach Careers */
-.cr-button {
+.cr-button, 
+.en-button{
   font-size: 0.5rem;
-  background-color: #004080;
+  background-color: #7b89ac;
   color: white;
   padding: 5px 12px;
   text-decoration: none;
@@ -76,7 +78,7 @@ h1 + h1 {
 }
 
 .en-logo-container {
-  margin-top: 50px;
+  margin-top: 45px;
 }
 
 
