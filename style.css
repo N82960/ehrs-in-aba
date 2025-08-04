@@ -52,7 +52,8 @@ h1 + h1 {
 
 /* Hover effect for the .cr-button */
 .cr-button,
-.en-button,hover {
+.en-button,
+.rbh-button:hover {
   background-color: #003060; /* sets the color when hovered */
 }
 
