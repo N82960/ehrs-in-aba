@@ -40,7 +40,8 @@ h1 + h1 {
 /* Style the logo images */
 .cr-logo, 
 .en-logo,
-.rbh-logo {
+.rbh-logo,
+.tn-logo {
   width: 160px;
   height: 160px;
   margin-top: 0px;
@@ -51,16 +52,18 @@ h1 + h1 {
 }
 
 /* Hover effect for the .cr-button */
-.cr-button,
-.en-button,
-.rbh-button:hover {
+.cr-button:hover,
+.en-button:hover,
+.rbh-button:hover, 
+.tn-button:hover {
   background-color: #003060; /* sets the color when hovered */
 }
 
 /* align the logo using this container */
 .cr-logo-container, 
 .en-logo-container,
-.rbh-logo-container { 
+.rbh-logo-container,
+.tn-logo-container { 
   text-align: center;
   margin: 0 auto;
 }
@@ -68,7 +71,8 @@ h1 + h1 {
 /* Style the button that links to CentralReach Careers */
 .cr-button, 
 .en-button,
-.rbh-button {
+.rbh-button,
+.tn-button {
   font-size: 0.5rem;
   background-color: #7b89ac;
   color: white;
@@ -82,6 +86,7 @@ h1 + h1 {
 }
 
 .en-logo-container, 
-.rbh-logo-container {
+.rbh-logo-container, 
+.tn-logo-container {
   margin-top: 45px;
 }
